@@ -1,0 +1,33 @@
+body {
+    	background: rgb(61,84,222);
+		background: -moz-linear-gradient(0deg, rgba(61,84,222,1) 0%, rgba(166,242,234,1) 100%);
+		background: -webkit-linear-gradient(0deg, rgba(61,84,222,1) 0%, rgba(166,242,234,1) 100%);
+		background: linear-gradient(0deg, rgba(61,84,222,1) 0%, rgba(166,242,234,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3d54de",endColorstr="#a6f2ea",GradientType=1);
+    }
+	.box {
+        padding: 1em;
+    }
+
+    .button.tertiary {
+        background-color: royalblue;
+        color: white;
+    }
+
+    #io_ta {
+        height: calc(100vh - 200px);
+    }
+
+    .error {
+        color: firebrick;
+        font-size: small;
+    }
+
+    .noselect {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
